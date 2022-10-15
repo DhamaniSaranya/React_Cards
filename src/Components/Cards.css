@@ -1,0 +1,143 @@
+.cards-wrapper{
+display: flex;
+flex-direction: column;
+}
+.card1{
+width: 20vw;
+height: 25vh;
+position: absolute;
+top: 15.5rem;
+left: 38rem;
+border: 1px solid white;
+padding-left: 2%;
+border-top: 5px solid blue;
+border-radius: 10px;
+-webkit-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+-moz-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+}
+.card2{
+width: 20vw;
+height: 25vh;
+position: absolute;
+top: 30rem;
+left: 38rem;
+padding-left: 2%;
+border-radius: 10px;
+border: 1px solid white;
+border-top: 5px solid yellow;
+-webkit-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+-moz-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+}
+.card3{
+width: 20vw;
+height: 25vh;
+position: absolute;
+border-radius: 10px;
+padding-left: 2%;
+top: 23rem;
+right: 12rem;
+border: 1px solid white;
+border-top: 5px solid orange;
+-webkit-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+-moz-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+
+}
+.card4{
+width: 20vw;
+border-radius: 10px;
+height: 25vh;
+position: absolute;
+padding-left: 2%;
+top: 23rem;
+left: 13rem;
+border: 1px solid white;
+border-top: 5px solid aqua;
+-webkit-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+-moz-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+
+}
+
+.heading{
+word-wrap: break-word;
+}
+.card-text{
+color: gray;
+}
+.icon{
+width: 2rem;
+float: right;
+padding-right: 3%;
+}
+@media only screen and (max-width:426px) and (min-width: 320px) {
+.header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.cards-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.card1{
+    width: 100%;
+    height: 25vh;
+    position: absolute;
+    top: 25rem;
+    left: 1rem;
+    border: 1px solid white;
+    padding-left: 2%;
+    border-top: 5px solid blue;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+-moz-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+}
+.card2{
+    width: 100%;
+    height: 25vh;
+    position: absolute;
+    top: 38rem;
+    left: 1rem;
+    border: 1px solid white;
+    padding-left: 2%;
+    border-top: 5px solid yellow;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+-moz-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+}
+.card3{
+    width: 100%;
+    height: 25vh;
+    position: absolute;
+    top: 51rem;
+    left: 1rem;
+    border: 1px solid white;
+    padding-left: 2%;
+    border-top: 5px solid orange;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+-moz-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+}
+.card4{
+    width: 100%;
+    height: 25vh;
+    position: absolute;
+    top: 64rem;
+    left: 1rem;
+    border: 1px solid white;
+    padding-left: 2%;
+    border-top: 5px solid aqua;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+-moz-box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+box-shadow: -1px 10px 5px 8px rgba(189,182,189,0.41);
+}
+}
